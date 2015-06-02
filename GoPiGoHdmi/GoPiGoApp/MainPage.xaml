@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="GoPiGoApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GoPiGoApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="dexterlogo" HorizontalAlignment="Left" Height="240" Margin="399,309,0,-189" VerticalAlignment="Top" Width="240" Source="Assets/dexter_industries_blog_header_940X198.jpg" Opacity="0.5"/>
+        <Slider x:Name="slider_RightMotorSpeed" HorizontalAlignment="Left" Margin="44,161,0,0" VerticalAlignment="Top" Width="37" Value="70" Minimum="70" Maximum="255" Orientation="Vertical" Height="150" ValueChanged="slider_RightMotorSpeed_ValueChanged"/>
+        <Slider x:Name="slider_LeftMotorSpeed" HorizontalAlignment="Left" Margin="13,161,0,0" VerticalAlignment="Top" Width="41" Value="70" Minimum="70"  Maximum="255" Orientation="Vertical" Height="150" ValueChanged="slider_LeftMotorSpeed_ValueChanged"/>
+        <CheckBox x:Name="checkBox_SyncLeftRightSpeed" Content="Sync L and R Speed" HorizontalAlignment="Left" Margin="10,328,0,0" VerticalAlignment="Top" IsChecked="False"/>
+        <Button x:Name="button_Forward" Content="Forwards" HorizontalAlignment="Left" Margin="265,94,0,0" VerticalAlignment="Top" Width="129" Height="50" Background="#330FFF00" Click="button_Forward_Click"/>
+        <Button x:Name="button_TurnLeft" Content="Turn Left" HorizontalAlignment="Left" Margin="136,144,0,0" VerticalAlignment="Top" Width="129" Height="50" Background="#330FFF00" Click="button_TurnLeft_Click"/>
+        <Button x:Name="button_TurnRight" Content="Turn Right" HorizontalAlignment="Left" Margin="394,144,0,0" VerticalAlignment="Top" Width="129" Height="50" Background="#330FFF00" Click="button_TurnRight_Click"/>
+        <Button x:Name="button_Stop" Content="Stop" HorizontalAlignment="Left" Margin="265,144,0,0" VerticalAlignment="Top" Width="129" Height="50" Background="#33FF0000" Click="button_Stop_Click"/>
+        <Button x:Name="button_LeftRotate" Content="L Rotate" HorizontalAlignment="Left" Margin="225,261,0,0" VerticalAlignment="Top" Width="77" Height="50" Background="#331700FF" Click="button_LeftRotate_Click"/>
+        <Button x:Name="button_RightRotate" Content="R Rotate" HorizontalAlignment="Left" Margin="355,261,0,0" VerticalAlignment="Top" Width="77" Height="50" Background="#331700FF" Click="button_RightRotate_Click"/>
+        <Button x:Name="button_Backwards" Content="Backwards" HorizontalAlignment="Left" Margin="265,194,0,0" VerticalAlignment="Top" Height="50" Width="129" Click="button_Backwards_Click" Background="#330FFF00"/>
+        <StackPanel Margin="64,34,449,261">
+            <RadioButton x:Name="radioButton_LLedOn" Content="On" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="52" Checked="radioButton_LLedOn_Checked"/>
+            <RadioButton x:Name="radioButton_LLedOff" Content="Off" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True" Checked="radioButton_LLedOff_Checked"/>
+        </StackPanel>
+        <StackPanel Margin="459,34,54,261">
+            <RadioButton x:Name="radioButton_RLedOn" Content="On" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="52" Checked="radioButton_RLedOn_Checked" HorizontalContentAlignment="Left" FlowDirection="RightToLeft"/>
+            <RadioButton x:Name="radioButton_RLedOff" Content="Off" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True" Checked="radioButton_RLedOff_Checked" FlowDirection="RightToLeft"/>
+        </StackPanel>
+        <Ellipse x:Name="UiLLed" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="126,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="41"/>
+        <Ellipse x:Name="UiRLed" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="482,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="41"/>
+        <Slider x:Name="slider_ServoControl" HorizontalAlignment="Left" Margin="196,31,0,0" VerticalAlignment="Top" Width="263" Minimum="70" Maximum="170" LargeChange="10" SmallChange="8" ValueChanged="slider_ValueChanged" Value="120" IsDirectionReversed="True"/>
+        <TextBlock x:Name="textBlock_Servo" HorizontalAlignment="Left" Margin="310,18,0,0" TextWrapping="Wrap" Text="Servo" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_LLed" HorizontalAlignment="Left" Margin="126,2,0,0" TextWrapping="Wrap" Text="L Led" VerticalAlignment="Top" RenderTransformOrigin="-3.73,0.133"/>
+        <TextBlock x:Name="textBlock_RLed" HorizontalAlignment="Left" Margin="488,6,0,0" TextWrapping="Wrap" Text="R Led" VerticalAlignment="Top" RenderTransformOrigin="-3.73,0.133"/>
+    </Grid>
+</Page>
