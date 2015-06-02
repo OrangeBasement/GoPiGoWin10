@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoPiGoController", "GoPiGoApp\GoPiGoController.csproj", "{D7E791F1-A837-482A-AD96-6B933C7E2018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsIoTSocketClient", "WindowsIoTSocketClient\WindowsIoTSocketClient.csproj", "{425EC070-2232-40DC-A5C8-505EB898C834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|Any CPU.Build.0 = Debug|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|ARM.Build.0 = Debug|ARM
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|ARM.Deploy.0 = Debug|ARM
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|x64.ActiveCfg = Debug|x64
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|x64.Build.0 = Debug|x64
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|x64.Deploy.0 = Debug|x64
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|x86.ActiveCfg = Debug|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|x86.Build.0 = Debug|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Debug|x86.Deploy.0 = Debug|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|Any CPU.ActiveCfg = Release|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|Any CPU.Build.0 = Release|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|Any CPU.Deploy.0 = Release|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|ARM.ActiveCfg = Release|ARM
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|ARM.Build.0 = Release|ARM
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|ARM.Deploy.0 = Release|ARM
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|x64.ActiveCfg = Release|x64
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|x64.Build.0 = Release|x64
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|x64.Deploy.0 = Release|x64
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|x86.ActiveCfg = Release|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|x86.Build.0 = Release|x86
+		{D7E791F1-A837-482A-AD96-6B933C7E2018}.Release|x86.Deploy.0 = Release|x86
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|ARM.ActiveCfg = Debug|ARM
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|ARM.Build.0 = Debug|ARM
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|x64.ActiveCfg = Debug|x64
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|x64.Build.0 = Debug|x64
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|x86.ActiveCfg = Debug|x86
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Debug|x86.Build.0 = Debug|x86
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|ARM.ActiveCfg = Release|ARM
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|ARM.Build.0 = Release|ARM
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|x64.ActiveCfg = Release|x64
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|x64.Build.0 = Release|x64
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|x86.ActiveCfg = Release|x86
+		{425EC070-2232-40DC-A5C8-505EB898C834}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
