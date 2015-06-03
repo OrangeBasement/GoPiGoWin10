@@ -1,5 +1,6 @@
 //Build our device factory
 var DeviceFactory = GoPiGo.DeviceFactory.Build;
+
 //Build motor controller
 var motorController = GoPiGo.MotorController();
 
