@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.Networking;
 using Windows.Networking.Sockets;
 using Windows.Storage.Streams;
-using Buffer = Windows.Storage.Streams.Buffer;
 
-namespace WindowsIoTSocketClient
+namespace GoTagGoClient
 {
-    public static class SocketConnection
+    internal static class SocketConnection
     {
         private static HostName _hostName;
         private static StreamSocket _streamSocket;
